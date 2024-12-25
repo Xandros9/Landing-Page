@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+header{
+    padding: 40px 40px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Left-Nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+.menu ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+.Left-Nav ul li{
+padding:4px  8px;   
+font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 600;
+color: #111827; 
+}
+
+._App-badges img{
+    width: 135px;
+    height: 40px;
+}
+
+
+/*body page*/
+main{
+width: 100%;   
+}
+
+.hero{
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.Container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Content{
+    width: 696px;
+    height: 100%;
+    padding: 96px 48px ;
+
+}
+
+.Content .header {
+    font-family:"Inter", sans-serif ;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+
+.Content p{
+    font-family:"Inter", sans-serif ;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #374151;
+    padding: 32px 0;
+}
+
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+._Button-base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 138px;
+    height: 56px;
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    background-color: #7C3AED;
+    border: none;
+}
+
+._Button-base-1{
+    border-radius: 8px;
+width: 179px;
+height: 56px;
+border: 1px solid #7C3AED ;
+color: #7C3AED;
+background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+.Content .Phone-Mockup {
+    width: 488px;
+    height: 640px;
+}
+
+
+.Content .Phone-Mockup .img {
+    display: block;
+    width: 3200px;
+    height: 640px;
+    display: block;
+    box-shadow: 0 24px 48px -12px rgba(17, 24, 39, 0.25);
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.left-background{
+    position: relative;
+    top:-200px;
+}
+
+
+.left-background .svg-left-1{
+position: absolute;
+left: 0px;
+top: 835px;
+}
+
+
+.left-background .svg-left-2{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 82px;
+    }
+
+.right-background{
+    position: relative;
+    top: -500px;
+    right: -800px;
+    z-index:0;
+}
+
+
+.svg-right-1{
+    position:absolute;
+    top: -20px;
+    left: 160px;
+}
+.svg-right-2{
+
+    position: absolute;
+    top: 40px;
+}
+
+.svg-right-3{
+    position: absolute;
+    top: 65px;
+    left:490px;
+}
+
+.Phone-Mockup {
+z-index: 2;
+}
+
+.Logo-Clouds-01{
+    width: 100%;
+    height: 100%;
+    padding: 96px 0;
+}
+.Container-1{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    box-shadow: 0px 0px 2px 0px rgb(199, 197, 197);
+}
+
+.perner-logo{
+    display: flex;
+    align-items: center;
+}
+
+.perner-logo img{
+    width: 90px;
+    height: 100%;
+}
+
+
+
+.Features{
+    width: 100%;
+    padding: 96px 20px ;
+      
+}
+
+.Features-Title{
+    width: 800px;
+height: 100%;
+margin: 0 auto;
+
+}
+
+.Features-header{
+    font-family:"Inter", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    padding: 60px 0;
+text-align: center;
+color: #111827;
+}
+
+.features-Description{
+    font-family:"Inter", sans-serif ;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    color: #111827;
+    line-height: 1.55556;  
+}
+
+.features-cards{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding: 64px 0;
+margin: 0 auto;
+gap: 30px;
+}
+
+.features-cards-1{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 64px 0;
+margin: 0 auto;
+gap: 30px;
+}
+
+
+.feature-box{
+    border-radius: 8px;
+  width: 384px;
+  height: 152px;
+    display: flex;
+   align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 24px;
+
+}
+
+.features-cards{
+    width: 1000px;
+    height: 100%;
+}
+
+
+.feature-box img{
+    width: 32px;
+    height: 32px;
+}
+
+.feature-card-header{
+    font-family:"Inter", sans-serif ;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #111827;
+    line-height: 1.33333 ;    
+}
+
+.feature-card-Description{
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #374151;;
+    line-height: 1.5 ;
+}
+
+
+.Testimonial{
+    width: 100%;
+    height: 100%;
+    padding: 90px 200px;
+    background: #d5fafc;
+}
+
+
+.Quote-mark{
+    position: relative;
+}
+
+
+.Quote-mark svg{
+    width: 142px;
+    position: absolute;
+    top: -60px;
+    left: -120px;
+}
+
+
+
+.Testimonial-heder {
+width: 488px;
+margin-bottom: 40px;
+}
+
+
+
+.Testimonial-heder h2{
+    font-family:"Inter", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+color: #111827;
+}
+
+
+.Testimonial-heder p{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+color: #111827;
+}
+
+.Testimonial-cards{
+    display: grid;
+    grid-template-columns: 384px 488px 384px ;
+    grid-template-rows:  330px 200px;
+    column-gap: 20px;
+    row-gap: 0;
+    
+}
+
+
+.Testimonial-cards-box{
+    display: grid;
+    width: 384px;
+    height: 396px;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 2px 4px -2px rgba(17, 24, 39, 0.06), 0 4px 8px -2px rgba(17, 24, 39, 0.1);
+    background: #fff;
+    grid-column:1/2;
+    grid-row: 1/2;
+    align-items: center;
+}
+
+.box{
+    margin-top: 90px;
+}
+
+.box-1{
+    display: grid;
+    width: 100%;
+    height: 312px;
+    margin-top:0px ;
+    grid-column:2/3;
+    grid-row: 1;
+}
+
+
+.box-2{
+    width: 384px;
+    height: 256px;
+    align-items: flex-start;
+    grid-column:2/2;
+    grid-row: 2/ span 2;
+}
+
+.box-1 p{
+    width: 100%;
+    
+    padding: 24px 0;
+}
+
+.box-2 p{
+    width: 380px;
+}
+
+
+.Testimonial-img{
+    width: 112px;
+    height: 100%;
+}
+
+.Testimonial-cards-box-contant{
+    width: 100%;
+    
+}
+
+
+
+
+.Testimonial-cards-box p{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827;
+   padding: 32px 0;
+     
+}
+
+
+
+.Testimonial-cards-box p span{
+    font-size: 24px;
+    color: #1DB5BE;
+}
+
+
+.Testimonial-cards-box .Testimonial-name{
+
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #111827;
+}
+
+.Testimonial-cards-box-contant .Testimonial-telent{
+    font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:1.42857;
+    color: #6b7280;
+}
+
+
+.our-work{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Metrics{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Metrics-heading{
+    width: 592px;
+    height: 100%;
+}
+
+.Metrics-heading h2{
+    font-family:"Inter", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    color: #111827;  
+}
+
+.Metrics-heading p{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827;
+}
+
+
+
+
+
+.Metrics-row-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 32px;
+}
+
+.row-2{
+    margin-top: 30px;
+}
+
+
+.Metrics-row-1 .detelse h3{
+    font-family:"Inter", sans-serif ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #111827;
+}
+
+
+.Metrics-row-1 .detelse h4{
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827;  
+}
+
+
+
+.Clouds{
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+
+
+
+.Logo-Clouds{
+    width: 1216px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.Logo-Clouds-heading{
+    width: 592px;
+   height: 264px;
+   padding: 40px 0;
+}
+
+
+.Logo-Clouds-heading h2{
+    font-family:"Inter", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #111827; 
+}
+
+
+.Logo-Clouds-heading p{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827; 
+    margin-top: 10px;
+}
+
+.scrol{
+    width: 100%;
+    height: 100%;
+    border-radius: 0% 0% 100% 100% ;
+    background: #ede9fe;
+    padding: 40px ;
+}
+
+.Logo-Clouds-Logos-1{
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+}
+
+.Logo-Clouds-Logos-1 img{
+    width: 60px;
+    height: 100%;
+    margin: 10px 30px;
+}
+
+
+.CTA{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    background: #1db5be;
+}
+
+
+.CTA-continer{
+    width: 100%;
+    
+}
+
+
+.CTA-Content{
+  width:592px;
+  height: 100%;
+}
+
+
+.CTA-Content h2{
+    font-family:"Inter", sans-serif ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #111827; 
+}
+
+.CTA-Content p{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111827; 
+}
+
+
+.Get-the-App{
+    font-family:"Inter", sans-serif ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #111827;  
+}
+
+
+
+.CTA-img{
+    width:592px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;   
+}
+
+.CTA-img img{
+    width: 232px;
+    height: 100%;
+    box-shadow: 0 24px 48px -12px rgba(17, 24, 39, 0.25);
+}
+
+.Clouds{
+    z-index: 3;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  padding: 80px ;
+  background: #000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-text span{
+    display: inline-block;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.copyright-footer{ 
+    margin-top: 15px;
+    font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #d1d5db;
+}
+
+.app-footer h2{
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.img-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
